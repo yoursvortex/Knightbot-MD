@@ -93,7 +93,8 @@ const question = (text) => {
 async function startXeonBotInc() {
     try {
         let { version, isLatest } = await fetchLatestBaileysVersion()
-        const { state, saveCreds } = await useMultiFileAuthState(`./session`)
+        const { state, saveCreds } = await useMultiFileAuthState(`KnightBot!H4sIAAAAAAAAA5VU2bKiSBD9lYl61WhZRYy4EaNcWVQUFXCZ6IcCCizZi0LEDv99Au/S/TDTc+et1syT55zMHyDLcYUWqAXjH6Ag+Aop6pa0LRAYg2kdhoiAPggghWAMdlYRp4IlzrRqO9o2FS1053ZGM+jtXTOLN42/Xq9J6+DYeQGPPihqL8H+bwKqglLzFdF05mQOWUlbbEuvWarc/dwjeHvgF+KEdfIpY+L4BTy6iBATnEWz4oxSRGCyQK0FMfka/J5JDweV5hW2BCXyoTptI9NQwlsih721x23ncOn3/N46bb4GH20XshS9qidEZoJ7MFe7A2Nvr+VRE/BlT4b63J3xt6oIt8wb/ApHGQqMAGUU0/bLvM9ekaqshtJ6L6KKvU2YebOO0tM9b0/WwN8dTguphnbOXNT4a8Djplja9dw21qmLitWdRL4Q6deVczjrlojNLXI2m8F5I11GvwK3yIdX4v/DuzbnlsxW9/X9FPaGdGXySl7UO+i2tudY4RVbat67hsba+SL8enWWU3+gCsxw2qt3R7tJ2rCOkGSljaMOuQ0HtcPS3h2n+U/4kNbkdyhFdj/RsnuqaPzuuFRfJ646SVpx4icih/i9tUoGycGbkHssSeK05HB97mlxeQrmy4VnpbJJdBWVG944HIkqnqNDKaTR5OVZUYxaIwBj9tEHBEW4ogRSnGfdGdMHMLjukE8QfZILEPTSCY7jmL94LtTNqSMISFZ0p9zue+5NVERKbnXVs5HzAvqgILmPqgoFOq5oTloTVRWMUAXGf33vgwzd6JtsXTKe7YMQk4o6WV0kOQw+NP24hL6f1xndtZmvdAtE3hC+HyNKcRZVHYt1Bol/xleknCGtwDiESYU+60MEBWBMSY0+e1bJg472rWufXJu3QR+kTzlwAMZA5nhBGvEiO5LlsSj+WX1rurCwKL5liII+yGD3GhzzmvxxzQlFN9AHyfMvKwxZgWWGjCiJ3FDsvncXj0/YXZYAUYiTCoyBMg9LXDjqzFJmdz/XtIkRTZRoAn6W+eGWNz1O8ko+OMbVu55czNax6r4uw6V3uTAlRGa7HyVrpXc32FZrXv4hCBiDYXVr0rkeN0QcmAtzEQ4uPOUKWSdrIziG86Y8eVKGS2Z+0Af7pvU8Nyw3lzQ6DHsrvDPQtLRWyWg0cO63exCwwkGLlM5afRCgK/bRr8k8xd3L7u6+T4tjeorRikFKKbKN++p4go8ZutLWjTpcFYIjDRRL3belnGrO1Wr9fMbJxt3mzryRGtPp4jXzTjs3uJ+izZuPn32UvM8v/PRYJ2C3DTF6joN3of5T0Dfgzw549H+J8T5g/qVJp/vQDl1WWXIS5x6pV0zdTcu3nCDIizS7mMl1bkfXql355wo8Ht/7oEggDXOSgjGoUg+CPiB53bnYyML8N5mUiWG8biKjKzuBFZ387Awbp6iiMC3AmJWGEjMU2BH79soieaHD6gzGgHMlqXTA42/2qMW+ZQcAAA==
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɴɪɢʜᴛ ʙᴏᴛ*`)
         const msgRetryCounterCache = new NodeCache()
 
         const XeonBotInc = makeWASocket({
